@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="medlemstyle.css" />
+  </head>
+  <body>
+    <div class="formContainer">
+      <form action="https://httpbin.org/anything" method="post">
+        <div class="firstName">
+          <label for="firstName">First Name</label>
+          <input id="firstName" name="firstName" type="text" />
+        </div>
+
+        <div class="LastName">
+          <label for="lastName">Last Name</label>
+          <input id="lastName" name="lastName" type="text" />
+        </div>
+
+        <div class="username">
+          <label for="username">Username</label>
+          <input id="username" name="username" type="text" />
+        </div>
+
+        <div class="password">
+          <label for="pass">Password</label>
+          <input id="pass" name="password" type="password" />
+        </div>
+
+        <div class="email">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" />
+        </div>
+
+        <div class="cat">
+          <label for="catSelect">Choose a cat</label>
+          <select name="cat" id="catSelect">
+            <option value="">Please choose a cat</option>
+            <option value="orangeCat">Orange cat</option>
+            <option value="blackCat">Black cat</option>
+          </select>
+        </div>
+
+        <input type="checkbox" id="terms" name="terms" value="Accepted" />
+        <label for="terms">Accept terms and conditions</label>
+
+        <div class="send">
+          <button type="submit">Bli medlem</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
